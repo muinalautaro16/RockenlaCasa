@@ -363,7 +363,7 @@ img {
 }
 
 .header {
-  background-color: #4CB8B3;
+  background-color: #191919;
 }
 .header h1 {
   color: #fff;
@@ -375,7 +375,7 @@ img {
   }
 }
 .header .contenido-header {
-  padding: 2rem;
+  padding: 1rem;
 }
 @media (min-width: 768px) {
   .header .contenido-header {
@@ -383,6 +383,27 @@ img {
     justify-content: space-between;
     align-items: center;
   }
+}
+.header .contenido-header .contenedorLogo {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 12rem;
+  height: 9rem;
+  background-color: #fff;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .header .contenido-header .contenedorLogo {
+    justify-content: center;
+  }
+}
+.header .contenido-header .contenedorLogo .logoIMG {
+  display: block;
+  margin: 0;
+  height: auto;
+  width: 90%;
+  padding: 1rem;
 }
 
 @media (min-width: 768px) {
@@ -403,8 +424,8 @@ img {
     margin: 0;
   }
 }
-.navegacion-principal:hover {
-  color: #FEF46D;
+.navegacion-principal a:hover {
+  color: #32cd32;
 }
 
 .video {
@@ -482,10 +503,10 @@ img {
 }
 
 .artistas {
-  background-color: #000;
+  background-color: #191919;
   padding: 5rem 0;
 }
-.artistas h3, .artistas p {
+.artistas h2, .artistas p {
   text-align: center;
   color: #F53756;
 }
@@ -497,7 +518,7 @@ img {
   margin: 0;
   padding: 0;
   list-style: none;
-  color: #000;
+  color: #191919;
 }
 .artistas .calendario li {
   padding: 2.5rem;
@@ -515,7 +536,7 @@ img {
   }
 }
 .escenarios-contenedor p {
-  color: #000;
+  color: #fff;
 }
 
 .escenario {
@@ -542,15 +563,15 @@ img {
 }
 
 .bg-amarillo {
-  background-color: #FEF46D;
+  background-color: #00913f;
 }
 .bg-amarillo li:nth-child(odd) {
-  background-color: #eada02;
+  background-color: #005e29;
 }
 
 .bg-verde {
-  background-color: #4CB8B3;
+  background-color: #00913f;
 }
 .bg-verde li:nth-child(odd) {
-  background-color: #3b9691;
+  background-color: #005e29;
 }

@@ -2,9 +2,10 @@
 @use 'base/mixins' as m;
 
 .artistas {
-    background-color: v.$negro;
+    background-color: v.$negroCarbon;
     padding: 5rem 0;
-    h3, p {
+    h2, p {
+        
         text-align: center;
         color: v.$rosa;
     }
@@ -21,7 +22,7 @@
                 font-weight: 400;
             }
         }
-        color: v.$negro;
+        color: v.$negroCarbon;
     }
 }
 
@@ -30,7 +31,7 @@
         @include m.grid(3, 5rem)
     }
     p {
-        color: v.$negro;
+        color: v.$blanco;
     }
 }
 .escenario {
@@ -57,9 +58,9 @@
 }
 
 .bg-amarillo {
-    background-color: v.$amarillo;
+    background-color: v.$verde;
     li:nth-child(odd) {
-        background-color: darken(v.$amarillo, 25%);
+        background-color: darken(v.$verde, 10%);
     }
    
 }
