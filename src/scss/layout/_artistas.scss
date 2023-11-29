@@ -3,7 +3,7 @@
 
 .artistas {
     background-color: v.$negroCarbon;
-    padding: 5rem 0;
+    padding: 3rem 0;
     h2, p {
         
         text-align: center;
@@ -36,7 +36,7 @@
 }
 .escenario {
     padding-top: 2rem;
-    margin: 5rem 0;
+    margin: 1rem 0;
     .nombre-escenario {
         &:after {
             content: '';
