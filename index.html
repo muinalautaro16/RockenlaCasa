@@ -16,14 +16,16 @@
         
         <div class="contenedor contenido-header">
             <div class="contenedorLogo">
-                <img class="logoIMG" src="/build/img/imagenes de rock/logo-cdlm-54b-2.png" alt="logo">
+                <a href="index.html">
+                    <img class="logoIMG" src="/build/img/imagenes de rock/logo-cdlm-54b-2.png" alt="logo">
+                </a>
             </div>
             
             <h1>Rock en la Casa</h1>
             <nav class="navegacion-principal">
-                <a href="#">Artistas</a>
-                <a href="#">Galeria</a>
-                <a href="#">Boletos</a>
+                <a href="#artistas">Artistas</a>
+                <a href="#galeria">Galeria</a>
+                <a href="#boletos">Boletos</a>
             </nav>
         </div>
     </header>
@@ -149,14 +151,58 @@
         </div> <!--.escenarios-contenedor -->
     </section>
 
-    <section class="galeria contenedor">
+    <section id="galeria" class="galeria contenedor">
         
         <h3>Galeria</h3>
 
         <ul class="galeria-imagenes"></ul>
     </section>
 
-    
+    <section id="boletos" class="boletos">
+        <h3>Boletos</h3>
+
+        <div class="contenedor contenedor-boletos">
+            <div class="basico pase">
+                <p class="nombre-pase">Pase 1 Día</p>
+                <header class="pase-header">
+                    <p>Incluye</p>
+                </header>
+                <div class="pase-body">
+                    <ul>
+                        <li>Acceso a ambos escenarios</li>
+                        <li>Comida y Bebida</li>
+                    </ul>
+                </div>
+                <footer class="pase-footer">
+                    <p>$2000</p>
+                </footer>
+            </div>
+
+            <div class="premiun pase">
+                <p class="nombre-pase">Pase 2 Días</p>
+                <header class="pase-header">
+                    <p>Incluye</p>
+                </header>
+                <div class="pase-body">
+                    <ul>
+                        <li>Acceso a ambos escenarios</li>
+                        <li>Comida y Bebida</li>
+                        <li>Camiseta del evento</li>
+                        <li>Acceso VIP</li>
+                    </ul>
+                </div>
+                <footer class="pase-footer">
+                    <p>$5000</p>
+                </footer>
+            </div>
+        </div>
+
+    </section>
+
+    <footer class="site-footer">
+        <p>Rock en la Casa. Todos los derechos reservados</p>
+    </footer>
+
 <script src="build/js/app.js"></script>
 </body>
 </html>
